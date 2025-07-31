@@ -1,7 +1,9 @@
 import React from "react";
+import ProviderDashboard from "./ProviderDashboard";
 
 function DashboardPage() {
-  return <div>Dashboard Page</div>;
+  // In a real app, check user role here
+  return <ProviderDashboard />;
 }
 
-export default DashboardPage; 
+export default DashboardPage;
